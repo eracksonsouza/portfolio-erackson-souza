@@ -4,7 +4,7 @@ import { ref, computed } from 'vue';
 const Projects = ref([
     {
         id: 1,
-        image: 'src/assets/projetos/projeto-nei.png',
+        image: './src/assets/projetos/projeto-nei.png',
         title: 'NEI Market Analytics',
         description: 'Projeto de análise de mercado: Criptomoedas, ações, fundos imobiliarios, bolsa de valores com o intuito de passar dados em tempo real. Além disso o projeto tem um chat bot que usa a API do gemini para responder perguntas ao usuário.',
         technologies: ['Vue.js 3', 'TypeScript', 'Express.js', 'Tailwind CSS'],
@@ -13,7 +13,7 @@ const Projects = ref([
     },
     {
         id: 2,
-        image: 'src/assets/projetos/the-movie.png',
+        image: './src/assets/projetos/the-movie.png',
         title: 'The Movie API',
         description: 'O projeto consiste em fazer o consumo de uma API de filmes e exibir os filmes na tela com informações como: poster, título, sinopse, gênero, duração e data de lançamento.',
         technologies: ['CSS', 'JavaScript', 'React', 'Axios'],
@@ -22,7 +22,7 @@ const Projects = ref([
     },
     {
         id: 3,
-        image: 'src/assets/projetos/search-github-user.png',
+        image: './src/assets/projetos/search-github-user.png',
         title: 'Search User GitHub',
         description: 'O projeto consiste em consumir a API do GitHub utilizando a função fetch. O usuário digita um nome de usuário e com base nisso, os dados do GitHub relacionados a esse usuário são retornados e exibidos diretamente na interface da aplicação.',
         technologies: ['CSS', 'JavaScript', 'Fetch'],
