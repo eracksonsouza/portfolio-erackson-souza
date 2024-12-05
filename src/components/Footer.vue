@@ -7,11 +7,6 @@
         </div>
 
         <div class="flex flex-col space-y-5 mt-4">
-            <div class="flex flex-row space-x-5">
-                <p class="text-white font-bold">souza.erackson@gmail.com </p>
-                <p> | </p>
-                <p class="text-white font-bold">(84) 99115-3472</p>
-            </div>
 
             <div >
                 <ul class="flex justify-center space-x-5">

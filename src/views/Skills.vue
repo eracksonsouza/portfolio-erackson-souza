@@ -42,13 +42,13 @@ const buttonClass = 'bg-[#fffefe] hover:bg-[#f0bf6c] w-[110px] h-[40px] px-4 py-
 <template>
     <section id="skills">
         <div class="flex flex-col items-center justify-center ">
-            <h2 class="text-4xl font-bold text-white mt-10">Linguagens e Frameworks</h2>
+            <h2 class="text-4xl font-bold text-white mt-10 pl-5">Linguagens e Frameworks</h2>
             <div class="border-b-2 border-[#f0bf6c] w-[100px] mt-2"></div>
         </div>
         <div class="flex  space-x-5 mt-10 items-center justify-center">
             <button v-for="tab in tabs" :key="tab.id" @click="changeTab(tab.id)"
                 :class="{ 'active': selectTab === tab.id, 'bg-[#f0bf6c]': selectTab === tab.id }"
-                class="bg-[#fffefe] hover:bg-[#f0bf6c] w-[110px] h-[40px] px-4 py-2 rounded-md flex items-center justify-center text-black font-bold">
+                class="bg-[#fffefe] hover:bg-[#f0bf6c] w-[110px] h-[40px] rounded-md flex items-center justify-center text-black font-bold">
                 {{ tab.name }}
             </button>
         </div>
