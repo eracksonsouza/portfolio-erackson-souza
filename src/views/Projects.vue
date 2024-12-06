@@ -12,7 +12,7 @@ const Projects = ref([
         description: 'Projeto de análise de mercado: Criptomoedas, ações, fundos imobiliarios, bolsa de valores com o intuito de passar dados em tempo real. Além disso o projeto tem um chat bot que usa a API do gemini para responder perguntas ao usuário.',
         technologies: ['Vue.js 3', 'TypeScript', 'Express.js', 'Tailwind CSS'],
         gitURL: 'https://github.com/bush1D3v/NEI_market_analytics',
-        webURL: ''
+        webURL: 'Em breve...'
     },
     {
         id: 2,
@@ -84,6 +84,8 @@ const filteredProjects = computed(() => {
                     <div class="text-white rounded-b-xl mt-3 bg-[#34353a] shadow-lg border border-[#34353a] py-6 px-4">
                         <h3 class="text-lg font-semibold uppercase lg:text-xl"> {{ project.title }}</h3>
                         <p class="text-[#ADB7BE]">{{ project.description }}</p>
+                        <p>Repositório 🔗: <a :href="project.gitURL" class="text-[#f0bf6c]"> {{ project.gitURL }}</a></p>
+                        <p>Site 💻: <a :href="project.webURL" class="text-[#f0bf6c]"> {{ project.webURL }}</a></p>
                         <div class="flex flex-wrap p-2.5">
                             <div v-for="technology in project.technologies" :key="technology"
                                 class="text-center ml-1 mt-1 rounded-3xl bg-[#f0bf6c] p-1"
