@@ -3,7 +3,7 @@
 <template>
     <footer class="footer flex flex-col md:flex-row items-center justify-between p-5">
         <div>
-            <p class="text-white font-bold">© 2024 Erackson Souza</p>
+            <p class="text-white font-bold">©2024 Erackson Souza</p>
         </div>
 
         <div class="flex flex-col space-y-5 mt-4">
