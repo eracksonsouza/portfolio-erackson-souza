@@ -1,6 +1,5 @@
 <script setup>
-import fotoAbout from "../assets/images/foto-about.png";
-import euFrentePc from "../assets/images/imagem-eu-frente-do-pc.png";
+import fotoErackson from "../assets/images/foto-erackson.png";
 </script>
 
 <template>
@@ -11,19 +10,19 @@ import euFrentePc from "../assets/images/imagem-eu-frente-do-pc.png";
     <h2 class="text-4xl font-bold text-white mt-10">Sobre mim</h2>
     <div class="border-b-2 border-[#f0bf6c] w-[120px] mt-2"></div>
 
-    <div class="flex flex-col items-center md:flex md:flex-row md:justify-center">
-      <div class="mt-10 mb-5 border-4 border-[#f0bf6c] m-5 rounded-md">
+    <div
+      class="flex flex-col items-center md:flex md:flex-row md:justify-center"
+    >
+      <div>
         <img
-          :src="euFrentePc"
+          :src="fotoErackson"
           alt="Foto about Erackson Souza"
-          class="w-[500px] h-[300px]"
+          class="w-[600px] h-[400px]"
         />
       </div>
 
       <div class="flex flex-col space-y-5 ml-4">
-        <h2 class="text-2xl font-bold text-center text-white">
-          Erackson Souza
-        </h2>
+
 
         <p class="text-accent font-bold">
           💡 Sou um desenvolvedor web apaixonado por tecnologia e inovação.
@@ -33,9 +32,8 @@ import euFrentePc from "../assets/images/imagem-eu-frente-do-pc.png";
         </p>
 
         <p class="text-accent font-bold">
-          💻 Estudo tecnologias como HTML, CSS, JavaScript, TypeScript e
-          frameworks como React e Vue. Estou sempre buscando aprender novas
-          tecnologias e me tornar um desenvolvedor mais completo e eficiente.
+          💻 Desenvolvedor Web Full-stack sempre em busca de criar soluções
+          que facilitam a vida de outras pessoas;
         </p>
 
         <p class="text-accent font-bold">
